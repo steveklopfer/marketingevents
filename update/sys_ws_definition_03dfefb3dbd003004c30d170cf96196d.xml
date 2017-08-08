@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ws_definition">
+    <sys_ws_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <base_uri>/api/x_44763_marketing/event</base_uri>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_version>No active default version</default_version>
+        <doc_link/>
+        <enforce_acl/>
+        <is_versioned>false</is_versioned>
+        <name>Event</name>
+        <namespace>x_44763_marketing</namespace>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <service_id>event</service_id>
+        <short_description/>
+        <sys_class_name>sys_ws_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-07 21:36:02</sys_created_on>
+        <sys_id>03dfefb3dbd003004c30d170cf96196d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Event</sys_name>
+        <sys_package display_value="Marketing Events" source="x_44763_marketing">ed8a5523db1003004c30d170cf9619aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Events">ed8a5523db1003004c30d170cf9619aa</sys_scope>
+        <sys_update_name>sys_ws_definition_03dfefb3dbd003004c30d170cf96196d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-07 21:36:02</sys_updated_on>
+    </sys_ws_definition>
+</record_update>

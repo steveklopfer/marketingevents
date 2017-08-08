@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_44763_marketing_equipment_request">x_44763_marketing_equipment_request</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>ERQ</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-06 16:16:33</sys_created_on>
+        <sys_id>a87d1d67db1003004c30d170cf96191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ERQ</sys_name>
+        <sys_package display_value="Marketing Events" source="x_44763_marketing">ed8a5523db1003004c30d170cf9619aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Events">ed8a5523db1003004c30d170cf9619aa</sys_scope>
+        <sys_update_name>sys_number_a87d1d67db1003004c30d170cf96191e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-06 16:16:33</sys_updated_on>
+    </sys_number>
+</record_update>

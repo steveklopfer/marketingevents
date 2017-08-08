@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Marketing Event" max_length="40" name="x_44763_marketing_event" type="collection">
+        <element default="0" label="Budget" max_length="20" name="budget" type="currency"/>
+        <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
+        <element choice="1" label="Event Type" max_length="40" name="event_type" type="choice">
+            <choice>
+                <element label="LUG" sequence="0" value="LUG"/>
+                <element label="Seminar" sequence="1" value="Seminar"/>
+                <element label="Booth" sequence="2" value="Booth"/>
+                <element label="Major" sequence="3" value="Major"/>
+            </choice>
+        </element>
+        <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element label="Number of attendees expected" max_length="40" name="number_of_attendees_expected" type="integer"/>
+        <element label="Number of attendees registered" max_length="40" name="number_of_attendees_registered" type="integer"/>
+        <element label="Sponsor" max_length="32" name="sponsor" reference="core_company" type="reference"/>
+        <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
+        <index name="index">
+            <element name="sponsor"/>
+        </index>
+        <index name="index2">
+            <element name="location"/>
+        </index>
+    </element>
+</database>
