@@ -6,6 +6,14 @@
         <element display="true" label="Last Name" max_length="40" name="last_name" type="string"/>
         <element label="Marketing Event" max_length="32" name="marketing_event" reference="x_44763_marketing_event" type="reference"/>
         <element label="Phone" max_length="40" name="phone" type="phone_number_e164"/>
+        <element choice="1" label="Title" max_length="40" name="title" type="choice">
+            <choice>
+                <element label="Mr." sequence="0" value="Mr."/>
+                <element label="Mrs." sequence="1" value="Mrs."/>
+                <element label="Ms." sequence="2" value="Ms."/>
+                <element label="Dr." sequence="3" value="Dr."/>
+            </choice>
+        </element>
         <index name="index">
             <element name="marketing_event"/>
         </index>
