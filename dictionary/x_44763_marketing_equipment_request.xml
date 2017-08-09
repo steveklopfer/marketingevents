@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Equipment Request" max_length="40" name="x_44763_marketing_equipment_request" sizeclass="6" type="collection">
+    <element extends="task" label="Equipment Request" max_length="40" name="x_44763_marketing_equipment_request" type="collection">
         <element label="Marketing Event" max_length="32" name="marketing_event" reference="x_44763_marketing_event" type="reference"/>
         <element label="Needed From" max_length="40" name="needed_from" type="glide_date"/>
         <element label="Needed Until" max_length="40" name="needed_until" type="glide_date"/>

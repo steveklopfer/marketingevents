@@ -16,11 +16,11 @@
         <sys_domain_path>/</sys_domain_path>
         <sys_id>517a7d27db5003004c30d170cf961961</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
+        <sys_name>mobile</sys_name>
+        <sys_package display_value="Marketing Events" source="x_44763_marketing">ed8a5523db1003004c30d170cf9619aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Marketing Events">ed8a5523db1003004c30d170cf9619aa</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_filter_517a7d27db5003004c30d170cf961961</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2017-08-06 18:23:19</sys_updated_on>
         <table>sys_user</table>
